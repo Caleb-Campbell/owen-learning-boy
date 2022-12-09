@@ -1,0 +1,25 @@
+:root{
+  margin: 0;
+}
+
+.App{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App button {
+  width: 20vw;
+  height: 4vh;
+  font-size: 2em;
+  cursor: pointer;
+  font-weight: bold;
+}

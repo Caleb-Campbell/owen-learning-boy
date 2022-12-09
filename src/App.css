@@ -11,15 +11,51 @@
   margin: 0;
   padding: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .App button {
+  position: absolute;
   width: 20vw;
   height: 4vh;
   font-size: 2em;
   cursor: pointer;
   font-weight: bold;
+  animation: spinny 2s infinite;
+  transition: ease 1s all;
+}
+
+@keyframes spinny {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  10%{
+    transform: rotateZ(36deg);
+  }
+  20%{
+    transform: rotateZ(72deg);
+  }
+  30%{
+    transform: rotateZ(108deg);
+  }
+  40%{
+    transform: rotateZ(144deg);
+  }
+  50%{
+    transform: rotateZ(180deg);
+  }
+  60%{
+    transform: rotateZ(216deg);
+  }
+  70%{
+    transform: rotateZ(252deg);
+  }
+  80%{
+    transform: rotateZ(288deg);
+  }
+  90%{
+    transform: rotateZ(324deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
 }

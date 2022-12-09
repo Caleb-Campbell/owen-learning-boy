@@ -39,6 +39,8 @@ function App() {
       backgroundColor: `rgb(${color.b},${color.g},${color.r})`,
       left: color.x,
       top: color.y,
+      width: `${color.x / 5}vw`,
+      height: `${color.y / 5}vh`,
     }} 
     onClick={changeColorRandom}>Change Color</button>
     </div>

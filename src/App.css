@@ -15,8 +15,6 @@
 
 .App button {
   position: absolute;
-  width: 20vw;
-  height: 4vh;
   font-size: 2em;
   cursor: pointer;
   font-weight: bold;
